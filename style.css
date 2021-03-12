@@ -1,0 +1,144 @@
+.h500{
+    height: 500px;
+}
+.blue{
+    background-color: cadetblue;
+}
+.gold{
+    background-color: goldenrod;
+}
+.h300{
+    height: 300px;
+}
+.red{
+    background-color: tomato;
+}
+.grey{
+    background-color: rgb(173, 173, 173);
+}
+.fontSmall{
+    font-size: 13px;
+}
+.fontBig{
+    font-size: 24px;
+}
+.background100{
+    width: 100vw;
+    height: 700px;
+    background: url(https://technext.github.io/avalon/img/events-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+.bgWhite{
+    background-color: white;
+    height: 50px;
+}
+.eventDate{
+    background-color: wheat;
+    height: 100px;
+}
+.dateDiv{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(241, 139, 43);
+    color: white;
+}
+.rightSide{
+    width: 60%;
+}
+
+.photoOnly{
+    height: 600px;
+    background: url(https://technext.github.io/avalon/img/testimonial-left-image.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.webDevPhoto1{
+    width: 120px;
+    height: 120px;
+    background: url(https://www.thesun.co.uk/wp-content/uploads/2018/12/NINTCHDBPICT000454147460.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 100px;
+}
+.h100{
+    height: 100%;
+}
+.h600{
+    height: 420px;
+}
+.webDevPhoto2{
+    width: 120px;
+    height: 120px;
+    background: url(https://imgix.ranker.com/user_node_img/50064/1001275353/original/n-photo-u1?fit=crop&fm=pjpg&q=60&w=650&dpr=2);
+    background-position: center;
+    background-size: cover;
+    border-radius: 100px;
+}
+.webDevPhoto3{
+    width: 120px;
+    height: 120px;
+    background: url(https://1.bp.blogspot.com/-unadA8kcGPc/TWWjFW86NHI/AAAAAAAAAac/uqCMcZNEPms/s1600/mugshots+%25286%2529.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 100px;
+}
+
+.borderRad{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    border: 1px solid white;
+    background: url(https://technext.github.io/avalon/img/heart-icon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.borderRad2{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    border: 1px solid white;
+    background: url(https://technext.github.io/avalon/img/home-icon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.borderRad3{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    border: 1px solid white;
+    background: url(https://technext.github.io/avalon/img/revision-icon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.borderRad4{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    border: 1px solid white;
+    background: url(https://technext.github.io/avalon/img/chat-icon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-container {
+    perspective: 700px;
+}
+
+.card-flip, .card-container {
+    transform-style: preserve-3d;
+    transition: 0.8s;
+}
+.card-flip div {
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+}
+
+.back {
+    transform: rotateY(180deg);
+}
+
+.card-container:hover  {
+    transform: rotateY(180deg);
+}
